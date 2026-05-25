@@ -3,6 +3,7 @@ export const skillCategories = [
   { id: 'backend', label: 'Backend', icon: 'Server', color: 'from-cyan-500 to-blue-500', skills: ['Node.js', 'Express.js', 'REST APIs', 'JWT Auth'] },
   { id: 'database', label: 'Databases', icon: 'Database', color: 'from-emerald-500 to-teal-500', skills: ['MongoDB', 'MySQL'] },
   { id: 'dsa', label: 'DSA & Problem Solving', icon: 'Cpu', color: 'from-amber-500 to-orange-500', skills: ['Data Structures', 'Algorithms', 'Dynamic Programming', 'Graph Theory', 'Binary Search'] },
+  { id: 'corecs', label: 'Core Computer Science', icon: 'BookOpen', color: 'from-rose-500 to-pink-500', skills: ['OOPS', 'Computer Networking', 'Operating Systems', 'Theory of Computation'] },
 
 ];
 
