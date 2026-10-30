@@ -1,0 +1,15 @@
+name: OpsPilot live failure test
+
+on:
+  push:
+    branches:
+      - opspilot-live-test-20261030
+
+jobs:
+  intentional-failure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Report the test marker
+        run: echo "OPSPILOT_LIVE_TEST intentional workflow failure"
+      - name: Fail intentionally
+        run: exit 1
